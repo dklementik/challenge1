@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+nav .menu li a{
+  float: left;
+}
+.jaune{
+  color: #cfa205;
+  font-size: 18px;
+  text-decoration: none;
+}
+li{
+  float: left;
+  margin: 10px;
+}
+.menu {
+  background-color: black;
+  height: 60px;
+}
+.blanc{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+header{
+  height: 320px;
+  background-color: black;
+}
+.titre{
+  font-size: 133px;
+  color: #cfa205;
+  text-align: center;
+}
+header ul li {
+  text-align: center;
+}
