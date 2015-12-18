@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -54,28 +54,27 @@ i{
   width: 25px;
   height: 25px;
 }
-/*section{
-  height: 60px;
-}*/
 .lien{
   background-color: #E8E8E8;
   color: #777;
   padding: 18px 0;
 }
 .paragraphe{
-  /*width: 900px;*/
-  height: 90px;
-  background-color: white;
+  height: 463px;
+  /*background-color: white;*/
   /*border-bottom: 2px solid #7a7a7a;*/
 }
 .paragraphe h2{
   font-size: 18px;
   color: #777;
-  padding: 30px 20px 0px 20px;
   font-family: 'Bitter', serif;
   font-weight: bold;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #7a7a7a;
 }
-.article{
+main{
   background-color: #fff;
 }
 article {
@@ -84,7 +83,6 @@ article {
   padding: 30px;
   text-align: left;
   margin-top: 50px;
-  /*border: 2px solid #e8e8e8;*/
 }
 p{
   font-size: 14px;
@@ -105,4 +103,20 @@ h1{
   color: #cfa205;
   font-size: 8px;
   border: none;
+}
+a:hover{
+  color:#cfa205;
+  background-image:url(images/gris_anim.gif);
+  /*background-repeat:no-repeat;*/
+  /*font-size: 20pt;*/
+}
+.lien a{
+  text-decoration: none;
+  color: #7a7a7a;
+}
+.lien a:hover{
+  color: #cfa205;
+}
+.article{
+  margin-top: 30px;
 }
